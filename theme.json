@@ -1,0 +1,189 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#3498db",
+    "othersColor": "#f39c12",
+    "errorColor": "#c0392b",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#c0392b",
+          "#e67e22",
+          "#f1c40f",
+          "#2ecc71",
+          "#3498db",
+          "#9b59b6",
+          "#fd79a8"
+        ],
+        "name": "Rainbow dimensions",
+        "translation": "Rainbow dimensions",
+        "propertyValue": "5s3gl",
+        "type": "row",
+        "_id": "5aac0a40be1a68155e395fc0"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#c0392b",
+          "#d63031",
+          "#e67e22",
+          "#f1c40f",
+          "#fdcb6e",
+          "#2ecc71",
+          "#00b894",
+          "#3498db",
+          "#0984e3",
+          "#6c5ce7",
+          "#9b59b6",
+          "#e84393",
+          "#fd79a8"
+        ],
+        "name": "Rainbow UI",
+        "_id": "5aac0b6cbe1a68155e395fc5"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#c0392b",
+        "#e67e22",
+        "#f1c40f",
+        "#2ecc71",
+        "#3498db",
+        "#9b59b6",
+        "#fd79a8"
+      ],
+      "name": "Rainbow Gradient",
+      "translation": "Rainbow Gradient",
+      "type": "gradient",
+      "propertyValue": "st1zvt",
+      "_id": "5aac0967be1a68155e395fbb"
+    },
+    {
+      "scale": [
+        "#c0392b",
+        "#e67e22",
+        "#f1c40f",
+        "#2ecc71",
+        "#3498db",
+        "#9b59b6",
+        "#fd79a8"
+      ],
+      "name": "Rainbow Class",
+      "translation": "Rainbow Class",
+      "type": "class",
+      "propertyValue": "vjwofi",
+      "_id": "5aac0967be1a68155e395fba"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#888888",
+    "@SubtitleColor": "#888888",
+    "@TextColor": "#888888",
+    "@FooterColor": "#888888",
+    "@BackgroundColor": "#f5faff",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}

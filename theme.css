@@ -1,0 +1,71 @@
+.qvt-sheet {
+    background: #f5faff !important;
+}
+
+.body {
+    font-family: 'Comic Sans MS' !important;
+}
+
+.qvt-sheet {
+    background: linear-gradient(#c0392b, #d63031, #e67e22, #f1c40f, #fdcb6e, #2ecc71, #00b894, #3498db, #0984e3, #6c5ce7, #9b59b6, #e84393, #fd79a8) !important;
+}
+
+.qv-inner-object {
+    border: 3px solid hsl(0, 100%, 50%);
+    -webkit-animation: rainbow 2s infinite alternate;
+    padding: 5px;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        border-color: #c0392b;
+    }
+
+    8% {
+        border-color: #d63031;
+    }
+
+    16% {
+        border-color: #e67e22;
+    }
+
+    24% {
+        border-color: #f1c40f;
+    }
+
+    32% {
+        border-color: #fdcb6e;
+    }
+
+    40% {
+        border-color: #2ecc71;
+    }
+
+    48% {
+        border-color: #00b894;
+    }
+
+    56% {
+        border-color: #3498db;
+    }
+
+    64% {
+        border-color: #0984e3;
+    }
+
+    72% {
+        border-color: #6c5ce7;
+    }
+
+    80% {
+        border-color: #9b59b6;
+    }
+
+    88% {
+        border-color: #e84393;
+    }
+
+    100% {
+        border-color: #fd79a8;
+    }
+}
